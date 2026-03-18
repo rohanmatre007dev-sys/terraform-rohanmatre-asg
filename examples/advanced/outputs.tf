@@ -1,0 +1,11 @@
+output "autoscaling_group_id" { value = module.asg.autoscaling_group_id }
+output "autoscaling_group_name" { value = module.asg.autoscaling_group_name }
+output "autoscaling_group_arn" { value = module.asg.autoscaling_group_arn }
+output "autoscaling_group_min_size" { value = module.asg.autoscaling_group_min_size }
+output "autoscaling_group_max_size" { value = module.asg.autoscaling_group_max_size }
+output "autoscaling_policy_arns" { value = module.asg.autoscaling_policy_arns }
+output "autoscaling_schedule_arns" { value = module.asg.autoscaling_schedule_arns }
+output "launch_template_id" { value = module.asg.launch_template_id }
+output "launch_template_latest_version" { value = module.asg.launch_template_latest_version }
+output "iam_role_arn" { value = module.asg.iam_role_arn }
+output "iam_instance_profile_arn" { value = module.asg.iam_instance_profile_arn }
